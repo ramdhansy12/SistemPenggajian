@@ -1,5 +1,5 @@
 # Sistem Penggajian Karyawan
-    Merupakan sistem penggajian karyawan yang dibuat untuk memenuhi project portofolio.
+    Merupakan sistem penggajian karyawan
     Sistem ini dibuat dengan menggunakan codeignener 3.
 
 
