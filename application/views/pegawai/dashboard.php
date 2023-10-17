@@ -44,6 +44,7 @@
 	  				<td>:</td>
 	  				<td><?php echo $p->status?></td>
 	  			</tr>
+				  
 	  		</table>
 	  	</div>
   	</div>

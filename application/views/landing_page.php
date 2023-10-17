@@ -19,6 +19,9 @@
          text-align: center;
          border-radius: 8px;
       }
+      .readmore{
+         color: #fafafa;
+      }
    </style>
    <body>
       <!-- Pre Loader -->
@@ -69,7 +72,7 @@
                         <p>aplikasi ini dibuat untuk membantu perusahaan dalam proses penggajian karyawan</p>
                      </div>
                   </div>
-                  <div class="col headerImg" style="background-image: url('<?php echo base_url()?>assets/img/banner_s.png');"></div>
+                  <div class="col headerImg" style="background-image: url('<?php echo base_url()?>assets/img/webbanner.svg');"></div>
                   <div class="col-12 Dicover_Parent">
                      <a href="#AboutMe">
                         <div class="Discover">
@@ -103,23 +106,25 @@
              #panel1, #flip1 {
                padding: 5px;
                text-align: center;
-               background-color: #00BFD8;
-               border: solid 1px #c3c3c3;
+               background-color: #008040;
+               border: solid 1px #fafafa;
+               border-radius: 10px;
              }
 
              #panel1 {
                padding: 10px;
                display: none;
+               background-color: #9dffce;
              }
              </style>
             <div class="content">
                <div class="row">
                   <div class="col-md-6 col-lg-4 col-xl-3 ">
                      <div class="card">
-                        <div class="CardImage"><img src="<?php echo base_url(); ?>assets/img/tentang.svg"></div>
+                        <div class="CardImage"><img src="<?php echo base_url(); ?>assets/img/about.svg"></div>
                         <div class="body">
-                           <div class="title">Tentang Website</div>
-                           <div id="flip1">Read More</div>
+                           <h5>Tentang Website</h5>
+                           <div id="flip1" class="readmore" >Read More</div>
                            <div id="panel1">aplikasi ini dibuat untuk membantu perusahaan dalam proses penggajian karyawan</div>
                         </div>
                      </div>
@@ -137,21 +142,23 @@
                    #panel2, #flip2 {
                      padding: 5px;
                      text-align: center;
-                     background-color: #00BFD8;
-                     border: solid 1px #c3c3c3;
+                     background-color: #006fdd;
+                     border: solid 1px #ffffff;
+                     border-radius: 10px;
                    }
 
                    #panel2 {
                      padding: 10px;
                      display: none;
+                     background-color: #95caff;
                    }
                    </style>
                   <div class="col-md-6 col-lg-4 col-xl-3 ">
                      <div class="card">
-                        <div class="CardImage"><img src="<?php echo base_url(); ?>assets/img/administrator.svg"></div>
+                        <div class="CardImage"><img src="<?php echo base_url(); ?>assets/img/admin.svg"></div>
                         <div class="body">
-                           <div class="title">Halaman Admin</div>
-                           <div id="flip2">Read More</div>
+                           <h5>Halaman Admin</h5>
+                           <div id="flip2" class="readmore">Read More</div>
                            <div id="panel2">Administrator dapat menggunakan website untuk mengelola data pada website, halaman administrator terdapat dashboard / informasi singkat mengenai data data, terdapat data karyawan untuk pengelolaan karyawan, terdapat data jabatan untuk pengelolaan jabatan, terdapat data transaksi yang memiliki sub menu data absensi, setting potongan gaji, data gaji, terdapat data laporan yang memiliki sub menu laporan absensi, laporan gaji, cetak slip gaji.</div>
                         </div>
                      </div>
@@ -170,20 +177,22 @@
                      padding: 5px;
                      text-align: center;
                      background-color: #00BFD8;
-                     border: solid 1px #c3c3c3;
+                     border: solid 1px #ffffff;
+                     border-radius: 10px;
                    }
 
                    #panel3 {
                      padding: 10px;
                      display: none;
+                     background-color: #7befff;
                    }
                    </style>
                   <div class="col-md-6 col-lg-4 col-xl-3 ">
                      <div class="card">
-                        <div class="CardImage"><img src="<?php echo base_url(); ?>assets/img/karyawan.svg"></div>
+                        <div class="CardImage"><img src="<?php echo base_url(); ?>assets/img/employe.svg"></div>
                         <div class="body">
-                           <div class="title">Halaman Karyawan</div>
-                           <div id="flip3">Read More</div>
+                           <h5>Halaman Karyawan</h5>
+                           <div id="flip3" class="readmore" >Read More</div>
                            <div id="panel3">Halaman karyawan terdapat informasi tentang karyawan dan cetak slip gaji.</div>
                         </div>
                      </div>
@@ -201,21 +210,23 @@
                    #panel4, #flip4 {
                      padding: 5px;
                      text-align: center;
-                     background-color: #00BFD8;
-                     border: solid 1px #c3c3c3;
+                     background-color: #ffb7b7;
+                     border: solid 1px #ffffff;
+                     border-radius: 10px;
                   }
 
                    #panel4 {
                      padding: 10px;
                      display: none;
+                     background-color: #ffe6e6;
                   }
                   </style>
                   <div class="col-md-6 col-lg-4 col-xl-3 ">
                      <div class="card">
                         <div class="CardImage"><img src="<?php echo base_url(); ?>assets/img/others-fitur.svg"></div>
                         <div class="body">
-                           <div class="title">Fitur Lainnya</div>
-                           <div id="flip4">Read More</div>
+                           <h5>Fitur Lainnya</h5>
+                           <div id="flip4" class="readmore" >Read More</div>
                            <div id="panel4">Cetak slip gaji, lupa password, login karyawan</div>
                         </div>
                      </div>
